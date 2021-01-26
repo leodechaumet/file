@@ -27,7 +27,7 @@
             <title>Actualité N°4</title>
             <description>Ceci est ma seconde actualité</description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link><![CDATA[javascript:alert("http://www.example.org/actu2")]>hello</link>
+            <link><![CDATA[javascript:alert("http://www.example.org/actu2")]]>hello</link>
         </item>
                 <item>
             <title>Actualité N°4</title>
@@ -39,13 +39,13 @@
             <title>Actualité N°4</title>
             <description>Ceci est ma seconde actualité</description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link><![CDATA[http://www.example.org/actu2"%22 %2522 &quot &quot;]>hello</link>
+            <link><![CDATA[http://www.example.org/actu2"%22 %2522 &quot &quot;]]>hello</link>
         </item>
         <item>
             <title>Actualité N°4</title>
             <description>Ceci est ma seconde actualité</description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link><![CDATA[http://www.example.org/actu2"%22 %2522 &quot &quot;]>hello</link>
+            <link><![CDATA[http://www.example.org/actu2"%22 %2522 &quot &quot;]]>hello</link>
         </item>
     </channel>
 </rss>
