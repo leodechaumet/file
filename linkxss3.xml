@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>aeuieiuahello</title>
+        <description>Ceci est un exemple de flux RSS 2.0</description>
+        <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
+        <link>javascript:alert(123)</link>
+                <item>
+            <title>Actualité N°4</title>
+            <description>Ceci est ma seconde actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>javascript:alert("http://www.example.org/actu2")>hello</link>
+        </item>
+        <item>
+            <title>Actualité N°4</title>
+            <description>Ceci est ma seconde actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link><![CDATA[http://www.example.org/actu2"%22 %2522 &quot &quot;]]>hello</link>
+        </item>
+        <item>
+            <title>Actualité N°4</title>
+            <description>Ceci est ma seconde actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link><![CDATA[http://www.example.org/actu2"%22 %2522 &quot &quot;]]>hello</link>
+        </item>
+    </channel>
+</rss>
